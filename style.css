@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background:rgb(90, 10, 156);
+    position: absolute;
+    top: 150px;
+    left: 40%;
+   
+  
+
+}
+
+.container{
+    background:rgb(0, 0, 0);
+    width:300px;
+    height:420px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    border: 2px white solid;
+    border-radius: 30px;
+   
+    
+
+}
+.output{
+    background:rgb(253, 251, 255);
+    height:60px;
+    width: 250px;
+    border: none;
+    margin: 20px 0 30px ;
+    
+}
+.numbers-wrapper{
+    width: 250px;
+    border-radius: 30px;
+    display: flex;
+    align-items:center;
+    justify-content:space-evenly;
+    flex-direction:column;
+
+}
+
+button{
+    width: 50px;
+    height: 50px;
+    border-radius: 40px;
+    margin: 4px;    
+    border: 2px white solid;
+    background:rgb(0, 0, 0);
+    color:white;
+    font-size: 25px;
+    cursor: pointer;
+
+
+}
