@@ -66,3 +66,7 @@ button:hover{
     background: white;
     color: black;
 }
+
+.clear{
+    color: red;
+}
