@@ -59,7 +59,7 @@ function div(){
 function mult(){    
     result += Number(output.innerText);
     output.innerText = "";
-    isPercentage = true;
+    isMultiplication = true;
 };
 
 function percentageFuntion(){    
